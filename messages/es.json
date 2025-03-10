@@ -1,0 +1,68 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "John Doe",
+    "title": "Desarrollador Full Stack",
+    "description": "Construyo aplicaciones web modernas y responsivas con enfoque en rendimiento y experiencia de usuario.",
+    "cta": "Ver Mi Trabajo"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Soy un desarrollador apasionado con más de 5 años de experiencia construyendo aplicaciones web. Me especializo en React, Node.js y frameworks modernos de JavaScript. Cuando no estoy programando, me puedes encontrar haciendo senderismo o leyendo novelas de ciencia ficción.",
+    "downloadResume": "Descargar Currículum",
+    "shareAsPdf": "Compartir como PDF"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "viewAll": "Ver Todos los Proyectos",
+    "viewProject": "Ver Proyecto",
+    "sourceCode": "Código Fuente"
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Herramientas y Otros"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "description": "¿Tienes un proyecto en mente o simplemente quieres charlar? ¡No dudes en contactarme!",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo Electrónico",
+    "messageLabel": "Mensaje",
+    "sendButton": "Enviar Mensaje",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "copyright": "© 2023 John Doe. Todos los derechos reservados.",
+    "madeWith": "Hecho con Next.js y Tailwind CSS"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés"
+  },
+  "resume": {
+    "title": "Vista Previa del Currículum",
+    "download": "Descargar PDF",
+    "generating": "Generando...",
+    "professionalSummary": "Resumen Profesional",
+    "skills": "Habilidades",
+    "featuredProjects": "Proyectos Destacados",
+    "workExperience": "Experiencia Laboral",
+    "education": "Educación"
+  }
+} 

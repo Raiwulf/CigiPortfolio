@@ -1,0 +1,68 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "John Doe",
+    "title": "Full Stack Developer",
+    "description": "I build modern, responsive solutions with a focus on performance and user experience.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm a passionate developer with over 5 years of experience developing software solutions. I specialize in React, Node.js, and modern JavaScript frameworks. When I'm not coding, you can find me hiking or reading sci-fi novels.",
+    "downloadResume": "Download Resume",
+    "shareAsPdf": "Share as PDF"
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewAll": "View All Projects",
+    "viewProject": "View Project",
+    "sourceCode": "Source Code"
+  },
+  "skills": {
+    "title": "My Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind or just want to chat? Feel free to reach out!",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "sendButton": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "footer": {
+    "copyright": "© 2023 John Doe. All rights reserved.",
+    "madeWith": "Made with Next.js and Tailwind CSS"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French"
+  },
+  "resume": {
+    "title": "Resume Preview",
+    "download": "Download PDF",
+    "generating": "Generating...",
+    "professionalSummary": "Professional Summary",
+    "skills": "Skills",
+    "featuredProjects": "Featured Projects",
+    "workExperience": "Work Experience",
+    "education": "Education"
+  }
+} 
