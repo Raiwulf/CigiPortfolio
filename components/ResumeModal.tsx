@@ -5,7 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiX, FiDownload, FiShare2 } from "react-icons/fi";
 import Resume from "./Resume";
 import { useTranslations } from "next-intl";
-import { generatePDF } from "react-to-pdf";
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 interface ResumeModalProps {
   isOpen: boolean;
@@ -23,28 +24,24 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
     setIsGenerating(true);
     
     try {
-      await generatePDF(resumeRef, {
-        filename: 'resume.pdf',
-        page: {
-          format: 'A4',
-          orientation: 'portrait',
-          margin: {
-            top: '10mm',
-            right: '10mm',
-            bottom: '10mm',
-            left: '10mm',
-          },
-        },
-        overrides: {
-          pdf: {
-            compress: true,
-          },
-          canvas: {
-            useCORS: true,
-            scale: 2, // Better quality
-          },
-        },
+      const canvas = await html2canvas(resumeRef.current, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
       });
+      
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF({
+        format: 'a4',
+        unit: 'px',
+      });
+      
+      const imgProps = pdf.getImageProperties(imgData);
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+      
+      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+      pdf.save('resume.pdf');
     } catch (error) {
       console.error('Error generating PDF:', error);
     } finally {
