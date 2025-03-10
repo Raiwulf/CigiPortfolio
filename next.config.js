@@ -9,11 +9,8 @@ const nextConfig = {
   },
   output: 'export',
   // Configure basePath and assetPrefix for GitHub Pages
-  // Replace 'your-username' with your actual GitHub username
-  // and 'portfolio' with your repository name
-  // basePath: '/portfolio',
-  // assetPrefix: '/portfolio/',
-  // Remove these comments and uncomment the lines above when you know your repository name
+  basePath: '/CigiPortfolio',
+  assetPrefix: '/CigiPortfolio/',
 };
 
 module.exports = withNextIntl(nextConfig); 

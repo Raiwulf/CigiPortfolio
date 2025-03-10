@@ -34,8 +34,8 @@ A modern, feature-first portfolio website built with Next.js, TypeScript, Tailwi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/Raiwulf/CigiPortfolio.git
+   cd CigiPortfolio
    ```
 
 2. Install dependencies:
@@ -63,7 +63,7 @@ This repository is configured to automatically deploy to GitHub Pages using GitH
 1. Go to your GitHub repository settings
 2. Navigate to "Pages"
 3. Select "GitHub Actions" as the source
-4. Your site will be available at `https://yourusername.github.io/portfolio`
+4. Your site will be available at `https://Raiwulf.github.io/CigiPortfolio`
 
 ### Manual Deployment
 
